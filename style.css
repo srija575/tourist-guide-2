@@ -1,0 +1,42 @@
+div
+{
+    border: 2px solid black;
+    height: 350px;
+    width: 500px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+/*child selector*/
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    text-decoration: double;
+    text-decoration: burlywood;
+    
+    
+
+}
+
+
+.container
+{
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body
+{
+    color:black;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
